@@ -59,7 +59,7 @@ pipeline {
 		script {
 			rtMaven.tool = 'Maven-3.6.1' //Maven tool name specified in Jenkins configuration
 			echo 'The artefacts beuilt in Build stage are pushed to Nexus/ Artefactory repo'
-			echo $rtMaven.tool
+			//echo $rtMaven.tool
 			}
 	    }
 	}
