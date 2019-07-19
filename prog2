@@ -1,0 +1,11 @@
+echo "Enter Num1"
+declare -i a=3
+echo "Enter Num2"
+declare -i b=4
+
+if [ a -gt b ]
+then
+    echo a
+else
+    echo b
+fi
