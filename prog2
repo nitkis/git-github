@@ -1,12 +1,12 @@
 #!/bin/bash
-echo "Enter Num1"
-declare -i a=3
-echo "Enter Num2"
-declare -i b=4
+# set x,y and z to an integer data type
+declare -i x=10
+declare -i y=10
+declare -i z=0
+z=$(( x + y ))
+echo "$x + $y = $z"
 
-if [ a -gt b ]
-then
-    echo a
-else
-    echo b
-fi
+# try setting to character 'a'
+x=a
+z=$(( x + y ))
+echo "$x + $y = $z"
