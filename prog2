@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Enter Num1"
 declare -i a=3
 echo "Enter Num2"
